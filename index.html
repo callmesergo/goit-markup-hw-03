@@ -11,69 +11,81 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
-      <nav>
-        <a href="/" class="logo">Web<span class="studio-word">Studio</span></a>
+      <div class="container div-header">
+        <nav class="main-nav">
+          <a href="/" class="logo">Web<span class="studio-word">Studio</span></a>
 
-        <ul class="site-nav list">
-          <li><a href="" class="studio current">Студія</a></li>
-          <li><a href="./portfolio.html" class="portfolio">Портфоліо</a></li>
-          <li><a href="" class="contacts">Контакти</a></li>
+          <ul class="site-nav list">
+            <li><a href="" class="studio current">Студія</a></li>
+            <li><a href="./portfolio.html" class="portfolio">Портфоліо</a></li>
+            <li><a href="" class="contacts">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts-top list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail-top">info@devstudio.com </a>
+          </li>
+          <li><a href="tel:+380961111111" class="tel-top">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="contacts-top list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="mail-top">info@devstudio.com </a>
-        </li>
-        <li><a href="tel:+380961111111" class="tel-top">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="order-button">Замовити послугу</button>
+      <section class="hero section">
+        <div class="container div-hero">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="order-button">Замовити послугу</button>
+        </div>
       </section>
-      <section class="second-section">
-        <h2 class="visually-hidden">Наші особливості</h2>
-        <ul class="about list">
-          <li>
-            <h3 class="info-title">Увага до деталей</h3>
-            <p class="section-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="info-title">Пунктуальність</h3>
-            <p class="section-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="info-title">Планування</h3>
-            <p class="section-text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="info-title">Сучасні технології</h3>
-            <p class="section-text">
-              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="second section">
+        <div class="container second-section">
+          <h2 class="visually-hidden">Наші особливості</h2>
+          <ul class="about list">
+            <li class="about-card">
+              <h3 class="info-title">Увага до деталей</h3>
+              <p class="section-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+            <li class="about-card">
+              <h3 class="info-title">Пунктуальність</h3>
+              <p class="section-text">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
+            </li>
+            <li class="about-card">
+              <h3 class="info-title">Планування</h3>
+              <p class="section-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="about-card">
+              <h3 class="info-title">Сучасні технології</h3>
+              <p class="section-text">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="section">
-        <h2 class="section-title">Чим ми займаємося</h2>
-        <ul class="service list">
-          <li><img src="./images/img1.jpg" alt="веб-розробка" width="370" /></li>
-          <li><img src="./images/img2.jpg" alt="мобільна-розробка" width="370" /></li>
-          <li><img src="./images/img3.jpg" alt="веб-дизайн" width="370" /></li>
-        </ul>
+      <section class="service section">
+        <div class="container service-section">
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <ul class="service list">
+            <li><img src="./images/img1.jpg" alt="веб-розробка" width="370" /></li>
+            <li><img src="./images/img2.jpg" alt="мобільна-розробка" width="370" /></li>
+            <li><img src="./images/img3.jpg" alt="веб-дизайн" width="370" /></li>
+          </ul>
+        </div>
       </section>
-      <section class="section-grey">
+      <section class="section-grey section">
         <h2 class="section-title-team">Наша команда</h2>
         <ul class="our-team list">
           <li class="team-place">
