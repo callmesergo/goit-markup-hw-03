@@ -121,9 +121,7 @@ letter-spacing: 0.02em;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.02em;
-margin-right: 50px;
-    
+letter-spacing: 0.02em;   
         color: var(--primary-text-color);
     }
 .mail-top:hover,
@@ -143,6 +141,8 @@ margin-right: 50px;
 /* footer prop */
 .page-footer {
    background: var(--alt-dark-color);
+    padding-top: 111px;
+    padding-bottom: 60px;
 }
 .adress-bottom {
 font-style: normal;
@@ -226,6 +226,7 @@ font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--title-text-color);
+margin-bottom: 10px;
 }
 .section-text {
 font-weight: 400;
@@ -286,8 +287,7 @@ text-align: center;
     margin-right: auto;
     margin-left: auto;
     padding: 6px 22px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+   border-radius: 4px;
     border: none;
 }
 .button:hover,
@@ -364,7 +364,10 @@ padding-right: 15px;
 .contacts-top {
     display: flex;
     margin-left: auto;
-}
+    }
+    .top-tel {
+        margin-left: 50px;
+    }
 /* =======hero div======= */
 .div-hero {
     width: 700px;
@@ -389,19 +392,18 @@ align-items: center;
 .about-card {
     flex-basis: calc((100% - 90px) /4);
 }
-
-.service-section {
-    display: flex;
-  
-   
+.service {
+    padding-top: 118px;
+    padding-bottom: 94px;
 }
-    .services {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    list-style-image: none;
-        }
+.services {
+list-style-image: none;
+display: flex;
+justify-content: center;
+column-gap: 30px;
+
+
+    }
 .section-grey {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -418,10 +420,7 @@ align-items: center;
     padding: 30px 32px 30px 32px;
 
 }
-.div-footer {
-    padding-top: 111px;
-    padding-bottom: 60px;
-}
+
 .logo-footer {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
